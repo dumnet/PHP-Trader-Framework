@@ -1,13 +1,5 @@
 <?php
 
-/*DELETE history FROM history
-LEFT OUTER JOIN (
-SELECT MIN(id) as id, datetime, bid, ask, diff
-FROM history
-GROUP BY datetime, bid, ask, diff
-) as t1
-ON history.id = t1.id
-WHERE t1.id IS NULL*/
 
 define("MYSQL_SERVER", "");
 define("MYSQL_USER", "");
