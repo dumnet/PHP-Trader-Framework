@@ -12,3 +12,7 @@ Features :
 - Save data in a MySql database.
 - FXCM Provider (Thanks FXCM !).
 
+getrates*.php : Connect to FXCM every 1 second and gets the rates for indice GER30 or pair EURUSD and saves data in the mysql database, and prints data to screen also.
+
+realtimeavg*.php and realtimeavg*eurusd.php : Calculates the average value of all the recorded data for the current day, and compares it to the last known rate. Prints --- or +++ to the screen (relative trend). Works with GER30 and EURUSD for now.
+
