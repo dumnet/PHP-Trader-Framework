@@ -1,6 +1,10 @@
 <?php
 
-/*	realtimeavg12.php
+/*	
+	Use it by executing : php realtimeavg13.php
+	The local mysql database must have db TRD created and table HISTORY created
+	The table HISTORY must be feed by script getrates.php
+	realtimeavg13.php
 	IKYTraderFramework.
 	Trend detector based on the average value of ask rate of the current date.
 	Prints --- if the average value of the rate is downtrend.
@@ -8,9 +12,9 @@
 	Assumes that only one type of value is in database (here : DAX30).
 */
 
-define("MYSQL_SERVER", "localhost");
-define("MYSQL_USER", "root");
-define("MYSQL_PASSWORD", "11121975");
+define("MYSQL_SERVER", "");
+define("MYSQL_USER", "");
+define("MYSQL_PASSWORD", "");
 define("MYSQL_TRD_DB", "TRD");
 define("MYSQL_TRD_MAIN_TABLE", "history");
 
