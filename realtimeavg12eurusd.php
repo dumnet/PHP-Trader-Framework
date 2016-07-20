@@ -8,9 +8,9 @@
 	Assumes that only one type of value is in database (here : EURUSD).
 */
 
-define("MYSQL_SERVER", "localhost");
-define("MYSQL_USER", "root");
-define("MYSQL_PASSWORD", "11121975");
+define("MYSQL_SERVER", "");
+define("MYSQL_USER", "");
+define("MYSQL_PASSWORD", "");
 define("MYSQL_TRD_DB", "TRD");
 define("MYSQL_TRD_MAIN_TABLE", "history");
 
