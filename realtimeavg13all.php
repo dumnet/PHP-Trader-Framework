@@ -1,6 +1,8 @@
 <?php
 
 /*	realtimeavg13all.php
+	If you want to scan the trend for one pair only then use it as follows : php realtimeavg13all.php | grep EURUSD
+	(replace EURUSD with the needed pair to scan the trend).
 	IKYTraderFramework.
 	Trend detector based on the average value of ask rate of the current date.
 	Prints --- if the average value of the rate is downtrend.
