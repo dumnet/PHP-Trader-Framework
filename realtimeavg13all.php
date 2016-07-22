@@ -1,6 +1,6 @@
 <?php
 
-/*	realtimeavg12.php
+/*	realtimeavg13all.php
 	IKYTraderFramework.
 	Trend detector based on the average value of ask rate of the current date.
 	Prints --- if the average value of the rate is downtrend.
