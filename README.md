@@ -1,4 +1,4 @@
-# IKYTraderFramework
+# PHPTraderFramework
 After my first project Ichimoku Trader Framework, I'm working on some simple useful tools for market analysts and traders.
 
 getrates.php : Get GER30/DAX/DAX30 indice values and store them in a local database, in a file, and prints them on screen.
